@@ -19945,6 +19945,31 @@
             "BaseHookName": "OnPatrolHelicopterTakeDamage",
             "HookCategory": "Entity"
           }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 37,
+            "ReturnBehavior": 1,
+            "ArgumentBehavior": 4,
+            "ArgumentString": "l1, this",
+            "HookTypeName": "Simple",
+            "Name": "CanLootEntity [WorldItem]",
+            "HookName": "CanLootEntity",
+            "AssemblyName": "Assembly-CSharp.dll",
+            "TypeName": "WorldItem",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 0,
+              "Name": "RPC_OpenLoot",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "BaseEntity/RPCMessage"
+              ]
+            },
+            "MSILHash": "4FNtxKvywlRAkwvWf3MhA0RkxHXm7e01Fe0G6pPHmmw=",
+            "HookCategory": "Player"
+          }
         }
       ],
       "Modifiers": [
